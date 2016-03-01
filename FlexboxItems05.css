@@ -1,0 +1,29 @@
+.container {
+    height: 600px;
+    border: 5px solid red;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item {
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    flex-basis: 100px;
+}
+
+.a {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.b {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.c {
+    flex-grow: 0;
+    flex-shrink: 2;
+}
